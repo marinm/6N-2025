@@ -1,57 +1,66 @@
 import { useState } from "react";
 import "./App.css";
+import PlayerList from "./components/PlayerList";
+import { Nation } from "./types/Nation";
+import TeamFrance from "./data/TeamFrance";
+
+const DEFAULT_NATION: Nation = "France";
 
 function App() {
-    const [nation, setNation] = useState<string>("france");
+    const [nation, setNation] = useState<Nation>(DEFAULT_NATION);
+
+    const players =
+        {
+            England: [],
+            France: TeamFrance,
+            Ireland: [],
+            Italy: [],
+            Scotland: [],
+            Wales: [],
+        }[nation] ?? DEFAULT_NATION;
 
     return (
         <div>
             <div className="flag-icons">
                 <button
                     className="flag-icon"
-                    onClick={() => setNation("italy")}
+                    onClick={() => setNation("Italy")}
                 >
                     🇮🇹
                 </button>
                 <button
                     className="flag-icon"
-                    onClick={() => setNation("wales")}
+                    onClick={() => setNation("Wales")}
                 >
                     🏴󠁧󠁢󠁷󠁬󠁳󠁿
                 </button>
                 <button
                     className="flag-icon"
-                    onClick={() => setNation("france")}
+                    onClick={() => setNation("France")}
                 >
                     🇫🇷
                 </button>
                 <button
                     className="flag-icon"
-                    onClick={() => setNation("england")}
+                    onClick={() => setNation("England")}
                 >
                     🏴󠁧󠁢󠁥󠁮󠁧󠁿
                 </button>
                 <button
                     className="flag-icon"
-                    onClick={() => setNation("scotland")}
+                    onClick={() => setNation("Scotland")}
                 >
                     🏴󠁧󠁢󠁳󠁣󠁴󠁿
                 </button>
                 <button
                     className="flag-icon"
-                    onClick={() => setNation("ireland")}
+                    onClick={() => setNation("Ireland")}
                 >
                     🇮🇪
                 </button>
             </div>
-            <div className="scroller">
-                {nation === "italy" ? "Italy players" : ""}
-                {nation === "wales" ? "Wales players" : ""}
-                {nation === "france" ? "France players" : ""}
-                {nation === "england" ? "England players" : ""}
-                {nation === "scotland" ? "Scotland players" : ""}
-                {nation === "ireland" ? "Ireland players" : ""}
-            </div>
+            {nation}
+            <PlayerList players={players} />
         </div>
     );
 }
