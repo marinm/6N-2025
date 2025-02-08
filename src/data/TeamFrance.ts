@@ -141,7 +141,7 @@ const TeamFrance: Player[] = [
         nation: "France",
         name: "Thomas Ramos",
         position: "Fullback",
-        age: 192,
+        age: 29,
         height: "5'8\"",
         weightPounds: 192,
     },
