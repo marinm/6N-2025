@@ -4,7 +4,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Uini Antonio",
-        position: "Prop",
         age: 34,
         height: "6'4\"",
         weightPounds: 320,
@@ -12,7 +11,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Cyril Baille",
-        position: "Prop",
         age: 31,
         height: "5'9\"",
         weightPounds: 260,
@@ -20,7 +18,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Jean-Baptiste Gros",
-        position: "Prop",
         age: 25,
         height: "6'1\"",
         weightPounds: 247,
@@ -28,7 +25,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Julien Marchand",
-        position: "Hooker",
         age: 29,
         height: "5'9\"",
         weightPounds: 243,
@@ -36,7 +32,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Peato Mauvaka",
-        position: "Hooker",
         age: 28,
         height: "6'0\"",
         weightPounds: 247,
@@ -44,7 +39,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Gregory Alldritt",
-        position: "Back Row",
         age: 27,
         height: "6'2\"",
         weightPounds: 249,
@@ -52,7 +46,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Paul Broudehent",
-        position: "Back Row",
         age: 25,
         height: "6'2\"",
         weightPounds: 236,
@@ -60,7 +53,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Francois Cros",
-        position: "Back Row",
         age: 30,
         height: "6'2\"",
         weightPounds: 245,
@@ -68,7 +60,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Antoine Dupont",
-        position: "Scrum Half",
         age: 28,
         height: "5'7\"",
         weightPounds: 192,
@@ -76,7 +67,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Nolan Le Garrec",
-        position: "Scrum Half",
         age: 22,
         height: "5'7\"",
         weightPounds: 165,
@@ -84,7 +74,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Maxime Lucu",
-        position: "Scrum Half",
         age: 32,
         height: "5'8\"",
         weightPounds: 183,
@@ -92,7 +81,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Mathieu Jalibert",
-        position: "Fly Half",
         age: 26,
         height: "6'0\"",
         weightPounds: 185,
@@ -100,7 +88,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Romain Ntamack",
-        position: "Fly Half",
         age: 25,
         height: "6'1\"",
         weightPounds: 201,
@@ -108,7 +95,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Yoram Moefana",
-        position: "Centre",
         age: 24,
         height: "5'9\"",
         weightPounds: 214,
@@ -116,7 +102,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Louis Bielle-Biarr",
-        position: "Wing",
         age: 21,
         height: "6'0\"",
         weightPounds: 174,
@@ -124,7 +109,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Damian Penaud",
-        position: "Wing",
         age: 28,
         height: "6'2\"",
         weightPounds: 209,
@@ -132,7 +116,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Gabin Villiere",
-        position: "Wing",
         age: 29,
         height: "5'9\"",
         weightPounds: 194,
@@ -140,7 +123,6 @@ const TeamFrance: Player[] = [
     {
         nation: "France",
         name: "Thomas Ramos",
-        position: "Fullback",
         age: 29,
         height: "5'8\"",
         weightPounds: 192,

@@ -12,7 +12,6 @@ export default function PlayerList({ players }: Props) {
                     <tr>
                         <th>Nation</th>
                         <th>Name</th>
-                        <th>Position</th>
                         <th>Age</th>
                         <th>Height</th>
                         <th>Weight (lbs)</th>
@@ -23,7 +22,6 @@ export default function PlayerList({ players }: Props) {
                         <tr>
                             <td>{p.nation}</td>
                             <td>{p.name}</td>
-                            <td>{p.position}</td>
                             <td>{p.age}</td>
                             <td>{p.height}</td>
                             <td>{p.weightPounds}</td>
