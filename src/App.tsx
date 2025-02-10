@@ -7,6 +7,7 @@ import TeamItaly from "./data/TeamItaly";
 import TeamWales from "./data/TeamWales";
 import TeamEngland from "./data/TeamEngland";
 import TeamScotland from "./data/TeamScotland";
+import TeamIreland from "./data/TeamIreland";
 
 const DEFAULT_NATION: Nation = "France";
 
@@ -17,7 +18,7 @@ function App() {
         {
             England: TeamEngland,
             France: TeamFrance,
-            Ireland: [],
+            Ireland: TeamIreland,
             Italy: TeamItaly,
             Scotland: TeamScotland,
             Wales: TeamWales,
