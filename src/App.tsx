@@ -4,6 +4,7 @@ import PlayerList from "./components/PlayerList";
 import { Nation } from "./types/Nation";
 import TeamFrance from "./data/TeamFrance";
 import TeamItaly from "./data/TeamItaly";
+import TeamWales from "./data/TeamWales";
 
 const DEFAULT_NATION: Nation = "France";
 
@@ -17,7 +18,7 @@ function App() {
             Ireland: [],
             Italy: TeamItaly,
             Scotland: [],
-            Wales: [],
+            Wales: TeamWales,
         }[nation] ?? DEFAULT_NATION;
 
     return (
