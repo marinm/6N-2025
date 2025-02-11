@@ -14,6 +14,7 @@ import IrelandFlag from "./assets/flags/ireland.png";
 import ItalyFlag from "./assets/flags/italy.png";
 import ScotlandFlag from "./assets/flags/scotland.png";
 import WalesFlag from "./assets/flags/wales.png";
+import { classes } from "./utils/classes";
 
 const DEFAULT_NATION: Nation = "France";
 
@@ -34,37 +35,55 @@ function App() {
         <div>
             <div className="flag-icons">
                 <button
-                    className="flag-icon"
+                    className={classes({
+                        "flag-icon": true,
+                        "selected-flag": nation === "Italy",
+                    })}
                     onClick={() => setNation("Italy")}
                 >
                     <img src={ItalyFlag} />
                 </button>
                 <button
-                    className="flag-icon"
+                    className={classes({
+                        "flag-icon": true,
+                        "selected-flag": nation === "Wales",
+                    })}
                     onClick={() => setNation("Wales")}
                 >
                     <img src={WalesFlag} />
                 </button>
                 <button
-                    className="flag-icon"
+                    className={classes({
+                        "flag-icon": true,
+                        "selected-flag": nation === "France",
+                    })}
                     onClick={() => setNation("France")}
                 >
                     <img src={FranceFlag} />
                 </button>
                 <button
-                    className="flag-icon"
+                    className={classes({
+                        "flag-icon": true,
+                        "selected-flag": nation === "England",
+                    })}
                     onClick={() => setNation("England")}
                 >
                     <img src={EnglandFlag} />
                 </button>
                 <button
-                    className="flag-icon"
+                    className={classes({
+                        "flag-icon": true,
+                        "selected-flag": nation === "Scotland",
+                    })}
                     onClick={() => setNation("Scotland")}
                 >
                     <img src={ScotlandFlag} />
                 </button>
                 <button
-                    className="flag-icon"
+                    className={classes({
+                        "flag-icon": true,
+                        "selected-flag": nation === "Ireland",
+                    })}
                     onClick={() => setNation("Ireland")}
                 >
                     <img src={IrelandFlag} />
